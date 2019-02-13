@@ -2,6 +2,8 @@ public with sharing class HandlerSOQL implements BotHandler {
     
     public BotResponse handle(String utterance, String[] params, Map<String, String> session, String fileName, String fileContent) {
         
+        string strQuery = utterance;
+
         SObject[] objects = Database.query(utterance);
         
         List<BotRecord> records = new List<BotRecord>();
