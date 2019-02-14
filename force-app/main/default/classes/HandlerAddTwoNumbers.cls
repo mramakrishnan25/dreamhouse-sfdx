@@ -2,8 +2,9 @@ public with sharing class HandlerAddTwoNumbers implements BotHandler {
     
     public BotResponse handle(String utterance, String[] params, Map<String, String> session, String fileName, String fileContent) {
         
-        int i = 10;
-        
+        int i = 25;
+        /*Add some code*/
+
         if (session == null) {
             session = new Map<String, String>();
             session.put('nextCommand', 'HandlerAddTwoNumbers');
