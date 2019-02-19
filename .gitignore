@@ -9,3 +9,6 @@
 .settings
 IlluminatedCloud/
 assets/server.key
+dataExport/Account-Contact-plan.json
+dataExport/Accounts.json
+dataExport/Contacts.json
