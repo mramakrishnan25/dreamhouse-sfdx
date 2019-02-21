@@ -3,6 +3,7 @@ public with sharing class HandlerSOQL implements BotHandler {
     public BotResponse handle(String utterance, String[] params, Map<String, String> session, String fileName, String fileContent) {
         
         string strQuery = utterance;
+        Integer i = 250; /*Added some code*/
 
         SObject[] objects = Database.query(utterance);
         
