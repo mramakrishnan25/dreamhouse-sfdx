@@ -2,7 +2,7 @@ public with sharing class HandlerAddTwoNumbers implements BotHandler {
     
     public BotResponse handle(String utterance, String[] params, Map<String, String> session, String fileName, String fileContent) {
         
-        Integer i = 50;
+        Integer i = 500;
         /*Add some code*/
 
         if (session == null) {

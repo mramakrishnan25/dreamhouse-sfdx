@@ -6,7 +6,7 @@ trigger InitPropertyDateListed on Property__c (before insert) {
     */
 
     Integer min = 5;
-    Integer max = 50;
+    Integer max = 500;
 
     for (Property__c property : Trigger.New) {
         
