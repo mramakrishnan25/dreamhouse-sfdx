@@ -3,5 +3,5 @@
     <fullName>MyDemoRule</fullName>
     <active>true</active>
     <errorConditionFormula>False</errorConditionFormula>
-    <errorMessage>Error found, please enter the correct value</errorMessage>
+    <errorMessage>Error reported, please enter the correct value</errorMessage>
 </ValidationRule>
