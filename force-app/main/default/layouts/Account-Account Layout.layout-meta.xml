@@ -73,10 +73,6 @@
                 <behavior>Edit</behavior>
                 <field>Sic</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>ccrz__DataId__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
