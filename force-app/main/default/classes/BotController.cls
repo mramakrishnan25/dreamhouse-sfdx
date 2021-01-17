@@ -1,7 +1,7 @@
 public with sharing class BotController {
 
     class HandlerMapping {
-        
+        int i = 0;
         public String handlerClassName;
         public Pattern utterancePattern;
 
