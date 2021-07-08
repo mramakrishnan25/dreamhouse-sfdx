@@ -15,7 +15,7 @@ public with sharing class BotController {
         public String handlerClassName;
         public Pattern utterancePattern;
 
-        Integer iVar = 7500;
+        Integer iVar = 1000;
 
         public HandlerMapping(String handlerClassName, String patternStr) {
             this.handlerClassName = handlerClassName;
